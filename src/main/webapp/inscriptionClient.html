@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form id="inscrption" method="post" action="/ProactifWeb/ActionServlet" >
+            <div id="forminscrption" >
+                <input type="hidden" name="action" value="inscriptionClient"/>
+                <!--p class="inputLabel">Numéro Client</p-->
+                <select name="civilite">
+                    <option value="Mme">Mme</option>
+                    <option value="M">M</option>
+                    <option value="Dr">Dr</option>
+                </select>
+                <input name="nom" type="text"/>
+                <input name="prenom" type="text"/>
+                <input name="adresse" type="text"/>
+                <input name="ville" type="text"/>
+                <input name="cp" type="number"/>
+                <input name="tel" type="number"/>
+                <input name="email" type="text"/>
+                <input name="datenaissance" type="text"/>
+                <input type="submit" value="OK"/>
+            </div>
+        </form>
+    </body>
+</html>

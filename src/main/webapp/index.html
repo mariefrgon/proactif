@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Proact'IF Connection Client</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/ProactifCss.css" type="text/css"/>
+    </head>
+    <body>
+        <div id="pinkRect">
+            <div id="innerPinkRect">
+                <h1>Proact'IF</h1>
+                <h2>Connection Client</h2>
+
+                <form id="connexion" method="post" action="/ProactifWeb/ActionServlet" >
+                    <div id="formconnexion" >
+                        <input type="hidden" name="action" value="connexionClient"/>
+                        <p class="inputLabel">Numéro Client</p>
+                        <input type="number" name="idclient" id="champidclient"/>
+                        <input type="submit" value="OK"/>
+                    </div>
+                </form>
+                <p>Entrez votre numéro de client ou <a href="" > inscrivez-vous</a></p>
+            </div>
+        </div>
+        
+        <script>
+            
+        </script>
+        
+    </body>
+</html>

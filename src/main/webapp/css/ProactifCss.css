@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 avr. 2018, 15:52:23
+    Author     : eborghino
+*/
+#pinkRect{
+    background-color: pink;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    text-align: center;
+}
+#innerPinkRect{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: xx-large;
+}
+
+h2{
+    font-size: medium;
+    margin-top: 1%;
+}
+
+.inputLabel{
+    text-align: left;
+    margin-bottom: 0;   
+}
+
+formconnexion{
+    margin: auto;
+    width: 33%;
+}
